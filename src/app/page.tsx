@@ -96,9 +96,9 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
-        <Link href='/' >Home</Link>
-        <Link href='/route1' >Route 1</Link>
-        <Link href='/subroute'> Sublink </Link>
+        <Link href="/">Home</Link>
+        <Link href="/route1">Route 1</Link>
+        <Link href="/subroute"> Sublink </Link>
       </footer>
     </div>
   );
