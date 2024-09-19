@@ -1,9 +1,9 @@
 import { pgTable, serial, text, timestamp } from 'drizzle-orm/pg-core';
 
-export const todoTable = pgTable('users_table', {
+export const todoTable = pgTable('todolist', {
   id: serial('id').primaryKey(),
-  createdAt: timestamp('created_at').notNull().defaultNow(),
-  description: text('name').notNull(),
+  created_at: timestamp('created_at').notNull().defaultNow(),
+  description: text('description').notNull(),
 });
 
 
